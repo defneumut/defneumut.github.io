@@ -1,0 +1,119 @@
+p{
+	font-family:'Tajawal', sans-serif;
+	font-size: 20px;
+}
+a{
+	color: #324c72;
+	font-size: 2rem;
+	padding: 10px 10px;
+}
+.container h2{
+	font-family:'Tajawal', sans-serif;
+	font-size: 24px;
+}
+.container h1{
+	font-family:'Tajawal', sans-serif;
+	font-size: 4rem;
+	text-align: center;
+
+}
+.onepic{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	width: 50%;
+	padding: 5px;
+}
+body {
+	padding-bottom: 3em;
+}
+
+p::first-letter {
+	font-size: 150%;
+}
+table{
+	margin: 20px auto;
+	border: 3px solid #66615b;
+	font-family: 'Artifika', serif;
+	font-size: 20px;
+
+}
+.jumbotron{
+	letter-spacing: 0.2rem;
+}
+hr.style-eight {
+	overflow: visible; /* For IE */
+	padding: 0;
+	border: none;
+	border-top: medium double #333;
+	color: #333;
+	text-align: center;
+}
+hr.style-eight:after {
+	content: "§";
+	display: inline-block;
+	position: relative;
+	top: -0.7em;
+	font-size: 1.5em;
+	padding: 0 0.25em;
+	background: white;
+
+}
+
+img {
+	width: 550px;
+	
+}
+
+.leb{
+	width: auto;
+	height: 250px;
+}
+
+.local {
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.dishes{
+	width: 350px;
+	height: 200px;
+	
+}
+.page{
+	background-color: #edeff2;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+li{
+	text-align: left;
+	font-size: 1.1em;
+}
+.links img{
+	width: 4em;
+}
+
+#contactme img{
+	width: 12em;
+}
+.registration{
+	text-align: center;
+}
+.registration ul{
+	list-style-type: none;
+	text-align: center;
+
+}
+.registration li{
+	text-align: center;
+}
+label {
+	font-family:'Tajawal', sans-serif;
+	font-size: 20px;
+	padding: 10px 10px;
+
+}
