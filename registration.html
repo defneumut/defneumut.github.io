@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="corum.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Tajawal" rel="stylesheet">
+	<script type="text/javascript" src="registration.js"></script>
+</head>
+<body>
+	<div class="container">
+		<table border="3" align="center">
+			<tr>
+				<td> <a href="home.html"> Home </a></td>
+				<td> <a href="localdishes.html"> Local Dishes </a> </td>
+				<td> <a href="historicalplaces.html">Historical Places</a></td>
+				<td> <a href="usefullinks.html">Useful Links</a></td>
+				<td> <a href="aboutme.html">About Me</a></td>
+				<td> <a href="contactme.html"> Contact Me</a> </td>
+				<td> <h3>Registration</h3></td>
+
+			</tr>
+		</table>
+	</div>
+	<div class="container page">
+		<form action="calculator.html" method="post" class="registration" onsubmit="return check();">
+			<ul>
+				<li>First Name: <input type="text" id="firstname"  placeholder="Abbi" > </li><br>
+				<li>Last Name:  <input type="text" id="lastname" placeholder="Smith"></li><br>
+				<li>Date of Birth: <input type="date" id="dob" placeholder="Date of Birth"></li><br>
+				<li>Email: <input type="text" id="email" placeholder="id@domain"></li><br>
+				<li>Password: <input type="password" id="password" placeholder="Password"></li><br>
+			</ul>
+
+			<p><label>Gender:
+				<select>
+					<option>Female</option>
+					<option>Male</option>
+					<option>Other</option>
+				</select>
+			</label></p>
+
+
+			<form action="calculator.html" onsubmit="return check()">
+				<p>what are your interests?</p>
+				
+				<label for="interest">Culinary</label>
+				<input class="interest" type="checkbox" name="interest">
+				<label for="interest">Reading</label>
+				<input class="interest" type="checkbox" name="interest">
+				<label for="interest">Code</label>
+				<input class="interest" type="checkbox" name="interest">
+				<label for="interest">Travel</label>
+				<input class="interest" type="checkbox" name="interest">
+				<label for="interest">Art</label>
+				<input  class="interest" type="checkbox" name="interest">
+				<label for="interest">Writing</label>
+				<input class="interest" type="checkbox" name="interest">
+
+			</form>
+
+			<a href="calculator.html"><input type="submit" value="Submit" action="calculator.html" onclick="return check()"></a>
+			<a href="registration.html"><button> Reset </button></a>
+
+		</form>
+	</div>
+
+</body>
+</html>
